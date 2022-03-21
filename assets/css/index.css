@@ -1,0 +1,143 @@
+
+/* --------------- HEADER --------------- */
+header{
+    height: auto;
+    background-color: var(--black);
+    color:var(--white);
+    padding: 1rem 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.header-message{
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+/* --------------- CONTAINER LOGO --------------- */
+
+.container{
+    height: auto;
+    margin: 1rem 0;
+}
+
+
+/* --------------- LOGO --------------- */
+.logo{
+    display: flex;
+    position: relative;
+}
+
+.logo-margin{
+    margin-bottom: .2rem;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img:nth-child(2){
+    position: absolute;
+    left: 4.3rem;
+    top: 0.2rem;
+}
+
+/* --------------- LOGO DESC --------------- */
+.logo-desc{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-left: .75rem;
+    width: auto;
+}
+
+/* --------------- LOGO AVALIATION --------------- */
+.logo-avaliation{
+    display: flex;
+    width: 2.9rem;
+    background-color: var(--grey);
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--gold);
+    padding: 0rem 0.4rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-avaliation p{
+    margin-right: 0.2rem;
+}
+
+/* --------------- LOGO CATEGORY --------------- */
+.logo-category{
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+/* --------------- LOGO SOCIALS --------------- */
+.socials{
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.4rem;
+    width: 5.3rem;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.open-info{
+    display: grid;
+    background-color: var(--green);
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    color: var(--white);
+    width: auto;
+    padding: 0.6rem 0rem;
+    margin-top: 0.75rem;
+}
+
+.open-info p{
+    display: flex;
+    justify-content: center;
+}
+
+.open-info p img{
+    margin-left: .5rem;
+}
+
+.open-info p:nth-child(1){
+    font-size: 0.7rem;
+}
+
+.open-info p:nth-child(2){
+    font-size: 0.7rem;
+}
+
+/* --------------- MENU --------------- */
+
+.menu-list{
+    display: flex;
+    overflow: scroll;
+    font-size: .85rem;
+    font-weight: 500;
+}
+
+.menu-list::-webkit-scrollbar{
+    display: none;
+}
+
+.menu-list li{
+    padding: .4rem 0;
+    margin-right: .4rem;
+}
+
+.menu-list .active{
+    border-bottom: 2px solid var(--black);
+}
