@@ -6,6 +6,8 @@ header{
     color:var(--white);
     padding: 1rem 1rem;
     border-radius: 0 0 0.5rem 0.5rem;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .header-message{
@@ -22,6 +24,14 @@ header{
 .logo{
     display: flex;
     position: relative;
+    height: 5.5rem;
+    width: 5.5rem;
+}
+
+.logo-space-btwn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .logo-content{
@@ -155,13 +165,19 @@ section h1{
     display: flex;
     border: 1px solid var(--grey);
     border-radius: .5rem;
-    height: auto;
+    max-height: 5.5rem;
     margin-top: .65rem;
 }
 
 .card-content{
     display: grid;
     align-items: center;
+}
+
+.card-space-btwn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .card-image{
@@ -183,12 +199,10 @@ section h1{
 }
 
 .card-item-desc{
-    overflow-wrap: break-word;
     font-size: 0.6rem;
     font-weight: 400;
     word-wrap: break-word;
     color: var(--dark-grey);
-    width: 12.6rem;
     height: 3.17rem;
     overflow: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
@@ -237,14 +251,14 @@ p.price-promo{
 .carrinho{
     position: fixed;
     bottom: 0;
-    left: 0;
-    width: 100%;
     height: 3.4rem;
     background-color: var(--black);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .cart-content{
@@ -256,7 +270,7 @@ p.price-promo{
     margin: 0 2rem;
 }
 
-.card-display{
+.cart-display{
     padding: 0.4rem 0.8rem;
     background: var(--white);
     border-radius: 0.4rem;
