@@ -183,7 +183,7 @@ section h1{
 .card-image{
     height: 5.5rem;
     width: 5.5rem;
-    background-image: url('/assets/img/burg.jpg');
+    background-image: url('../img/burg.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 0.5rem 0 0 0.5rem;
