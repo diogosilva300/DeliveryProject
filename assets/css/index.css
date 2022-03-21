@@ -165,7 +165,7 @@ section h1{
     display: flex;
     border: 1px solid var(--grey);
     border-radius: .5rem;
-    max-height: 5.5rem;
+    height: 5.63rem;
     margin-top: .65rem;
 }
 
@@ -183,7 +183,7 @@ section h1{
 .card-image{
     height: 5.5rem;
     width: 5.5rem;
-    background-image: url(/assets/img/burg.jpg);
+    background-image: url('/assets/img/burg.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 0.5rem 0 0 0.5rem;
@@ -267,7 +267,7 @@ p.price-promo{
     align-items: center;
     text-align: center;
     width: 100%;
-    margin: 0 2rem;
+    margin: 0 1rem;
 }
 
 .cart-display{
