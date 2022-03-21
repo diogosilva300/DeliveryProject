@@ -9,14 +9,15 @@
 
 a{
     text-decoration: none;
+    color: var(--black);
+}
+
+a:visited{
+    color: var(--black);
 }
 
 input{
     outline: none;
-}
-
-main{
-    margin: 0 1rem;
 }
 
 ul li{
@@ -30,6 +31,19 @@ ul li{
     --black: #373737;
     --white: #FBFBFB;
     --grey: #EDEDED;
+    --dark-grey: #9d9d9d;
     --gold: #FF971D;
     --green: #1CDC5E;
+}
+
+/* --------------- CLASSES REUTULIZÁVEIS --------------- */
+
+.container{
+    height: auto;
+    margin: 1rem 1rem;
+}
+
+.divider{
+    border: 0.5rem solid var(--grey);
+    margin: 2rem 0;
 }

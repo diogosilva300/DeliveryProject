@@ -17,18 +17,17 @@ header{
     border-radius: 0.5rem;
 }
 
-/* --------------- CONTAINER LOGO --------------- */
-
-.container{
-    height: auto;
-    margin: 1rem 0;
-}
-
 
 /* --------------- LOGO --------------- */
 .logo{
     display: flex;
     position: relative;
+}
+
+.logo-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .logo-margin{
@@ -37,7 +36,6 @@ header{
 
 .logo-container{
     display: flex;
-    justify-content: space-between;
 }
 
 .logo img:nth-child(2){
@@ -127,6 +125,8 @@ header{
     overflow: scroll;
     font-size: .85rem;
     font-weight: 500;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }
 
 .menu-list::-webkit-scrollbar{
@@ -140,4 +140,136 @@ header{
 
 .menu-list .active{
     border-bottom: 2px solid var(--black);
+}
+
+/* --------------- SECTION --------------- */
+
+section h1{
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+/* --------------- CARD--------------- */
+
+.card{
+    display: flex;
+    border: 1px solid var(--grey);
+    border-radius: .5rem;
+    height: auto;
+    margin-top: .65rem;
+}
+
+.card-content{
+    display: grid;
+    align-items: center;
+}
+
+.card-image{
+    height: 5.5rem;
+    width: 5.5rem;
+    background-image: url(/assets/img/burg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.5rem 0 0 0.5rem;
+    background-repeat: no-repeat;
+    margin-right: .5rem;
+}
+
+.card-title{
+    font-size: .85rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.card-item-desc{
+    overflow-wrap: break-word;
+    font-size: 0.6rem;
+    font-weight: 400;
+    word-wrap: break-word;
+    color: var(--dark-grey);
+    width: 12.6rem;
+    height: 3.17rem;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.card-item-desc::-webkit-scrollbar {
+    display: none;
+}
+
+.card-price{
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+}
+
+p.price{
+    font-size: .8rem;
+    margin-right: .5rem;
+}
+
+p.price-promo{
+    font-size: .65rem;
+    text-decoration: line-through;
+}
+
+.card-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-button{
+    height: 1.85rem;
+    width: 1.85rem;
+    background: var(--black);
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2.15rem;
+}
+
+/* --------------- CARRINHO --------------- */
+
+.carrinho{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3.4rem;
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cart-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 2rem;
+}
+
+.card-display{
+    padding: 0.4rem 0.8rem;
+    background: var(--white);
+    border-radius: 0.4rem;
+    
+}
+
+.cart-title{
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+.cart-value{
+    padding: 0.4rem 0.8rem;
+    background: var(--white);
+    border-radius: 0.4rem;
 }
